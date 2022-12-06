@@ -1,5 +1,5 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=2088f2&style=for-the-badge)
-# Gerador-de-relat-rio
+# Gerador de relatório em PDF
 Criar um gerador de relatório em pdf com nodeJS
 Gerar relatórios em pdf em forma dinâmica e inteligente para ajudar no dia dia de desenvolvedor.
 
@@ -21,3 +21,7 @@ Gerar relatórios em pdf em forma dinâmica e inteligente para ajudar no dia dia
 - [ ] criar um html
 - [ ] mostrar na rota
 
+<div align="center">
+<p> Visitantes</p>
+<p> <img alingn="center" src="https://profile-counter.glitch.me/Gerador_de_Relatorio/count.svg"</p>
+</div>
