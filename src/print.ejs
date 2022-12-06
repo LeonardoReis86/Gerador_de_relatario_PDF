@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Relatório</title>
+
+  <style>
+    table {
+      width: 100%;
+    }
+
+    tr {
+      text-align: left;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div>
+    <h1>Lista de Desenvolvedores</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Stacks</th>
+          <th>Currículo</th>
+          <th>Linkedin</th>
+          <th>Github</th>
+        </tr>
+      </thead>
+
+
+      <tbody>
+        <% if (developers.length> 0) { %>
+          <% developers.forEach(developer=> { %>
+            <tr>
+              <td>
+                <%= developer.name %>
+              </td>
+              <td>
+                <%= developer.stacks %>
+              </td>
+              <td>
+                <%= developer.URL %>
+              </td>
+              <td>
+                <%= developer.Linkedin %>
+              </td>
+              <td>
+                <%= developer.Github %>
+              </td>
+            </tr>
+            <% }); %>
+              <% } %>
+      </tbody>
+
+
+      <tfoot>
+        <tr>
+          <td colspan="2">
+            <%=developers.length %>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+</body>
+
+</html>
